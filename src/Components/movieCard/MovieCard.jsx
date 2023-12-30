@@ -6,7 +6,7 @@ import { useSelector } from "react-redux";
 import "./MovieCard.scss";
 import Img from "../LazyLoadImage/Img";
 import CircleRating from "../circleRating/CircleRating";
-import Genres from "../genres/Genres";
+import Genres from "../Genres/Genres";
 import PosterFallback from "../../assets/no-poster.png";
 
 export const MovieCard = ({ data, fromSearch, mediaType }) => {
