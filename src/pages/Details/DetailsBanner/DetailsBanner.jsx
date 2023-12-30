@@ -5,11 +5,11 @@ import dayjs from "dayjs";
 
 import "./DetailsBanner.scss";
 
-import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
+import ContentWrapper from "../../../Components/contentWrapper/ContentWrapper";
 import useFetch from "../../../Hooks/useFetch.jsx";
 import Genres from "../../../Components/Genres/Genres";
-import CircleRating from "../../../components/circleRating/CircleRating";
-import Img from "../../../components/lazyLoadImage/Img.jsx";
+import CircleRating from "../../../Components/circleRating/CircleRating";
+import Img from "../../../Components/LazyLoadImage/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "../PlayIcon/PlacIcon.jsx";
 import VideoPopup from "../../../Components/VideoPlayer/VideoPopup.jsx";
